@@ -8,6 +8,18 @@ div{
   width: 100px;
 }
 
+#mask{
+  border-radius: 50%;
+  box-shadow: 7px 7px 1px 0 black;
+  transform: rotate(223deg);
+  background: transparent;
+  margin-left: 117.5px;
+  position: absolute;
+  top: 13px;
+  height: 15px;
+  width: 15px;
+}
+
 #white{
   margin-left: 100px;
   width: 0;
@@ -15,6 +27,9 @@ div{
   border-left: 25px solid transparent; 
   border-right: 25px solid transparent; 
   border-bottom: 50px solid white;
+
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
 
 #orange{
@@ -32,4 +47,5 @@ div{
   border-left: 50px solid transparent; 
   border-right: 50px solid transparent; 
   border-bottom: 100px solid yellow;
+  border-radius: 22px;
 }
