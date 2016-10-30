@@ -12,14 +12,25 @@ div{
 h1{
 }
 
+#content-wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: 331px;
+}
+
+#content-wrapper div{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #mask{
   border-radius: 50%;
   box-shadow: 7px 7px 1px 0 black;
   transform: rotate(223deg);
   background: transparent;
-  margin-left: 117.5px;
+  margin-left: 158.5px !important;
   position: absolute;
-  top: 13px;
+  top: 83px;
   height: 15px;
   width: 15px;
 }
@@ -58,6 +69,7 @@ h1{
   font-size: 3em;
   margin-left: 50px;
   margin-top: 15px;
+  width: 153px;
 }
 
 a{
